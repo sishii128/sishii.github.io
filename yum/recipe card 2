@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+  
+  <title>yum!</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+  </head>
+  <body>
+  <header>
+    <h1>LEMON WHIP DESSERT</h1>
+    <h2>Seven servings ready in just under five hours</h2>
+  </header>
+
+
+<section id='content'>
+        <ul>
+        <li>60 buttery round crackers, crushed</li>
+        <li>&frac14; c confectioners' sugar </li>
+        <li>&frac12; c melted butter</li>
+        <li>6 oz frozen lemonade concentrate</li>
+        <li>14 oz can sweetened condensed milk</li>
+        <li>12 oz frozed whipped topping, thawed</li>
+      </ul>
+      <ol>
+        <li>In a mixing bowl, combine crushed crackers, confectioners sugar, and melted butter. Reserve &frac14; cup of combined mix for final sparkling on top.</li>
+        <li>Press remaining mix into the bottom of a 9 by 13 inch pan. Let the bottom of the pan be spaceless with the combined cracker mix.</li>
+        <li>Defrost the frozen lemonade and whipped topping at room temperature.</li>
+        <li>Blend together the lemonade, sweetened condensed milk, and whipped topping. Pour over the crusted pan.</li>
+        <li>Sprinkle the top with remaining crumb mixture. If desired, garnish with thinly sliced lemons. Enjoy before the hungry caterpiller crawls for crumbs.</li>
+      </ol>
+
+</section>
+
+  </body>
+</html>
