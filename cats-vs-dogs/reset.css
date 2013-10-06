@@ -73,4 +73,18 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+li {
+ 	list-style: none;
+	font-style:Baskerville;
+	font-weight:bold;
+	font-size:25px;}
+h1{font-size:30px;
+	font-family:Baskerville;
+	font-weight:bold;}
+h2{font-size:30px;
+   font-family:Baskerville;
+	font-weight:Bold;}
+p{font-family:Baskerville;}
+
+
 
