@@ -74,17 +74,43 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 li {
+	display: inline-block;
  	list-style: none;
 	font-style:Baskerville;
 	font-weight:bold;
-	font-size:25px;}
-h1{font-size:30px;
+	font-size:25px;
+	float:left;
+	padding:10px;
+	}
+position:relative;
+   left:175px;
+h1{font-size:25px;
 	font-family:Baskerville;
 	font-weight:bold;}
-h2{font-size:30px;
+h2{font-size:25px;
    font-family:Baskerville;
 	font-weight:Bold;}
-p{font-family:Baskerville;}
+p{font-family:Baskerville;
+  font-size:15px;}
+
+#site-header h1 a { position:relative;
+					left:500px;
+					display:block;  
+ 					width:300px; 
+ 					height:110px;  
+ 					background:url(images/dogvscat-logo.gif) no-repeat top left; 
+ 					text-indent:-9999px;
+ 					margin-top:30px;
+ 				    }
+ 
+article{clear:both;
+	    float:left;
+		width:350px;
+		height:350px;
+		}
+
+
+footer{clear:both;}
 
 
 
