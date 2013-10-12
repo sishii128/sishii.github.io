@@ -73,7 +73,7 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-li {
+li {color:#000000;
 	display: inline-block;
  	list-style: none;
 	font-style:Baskerville;
@@ -82,8 +82,8 @@ li {
 	float:left;
 	padding:10px;
 	}
-position:relative;
-   left:175px;
+
+
 h1{font-size:25px;
 	font-family:Baskerville;
 	font-weight:bold;}
@@ -93,15 +93,16 @@ h2{font-size:25px;
 p{font-family:Baskerville;
   font-size:15px;}
 
-#site-header h1 a { position:relative;
-					left:500px;
+#site-header h1 a {position:relative;
+					margin:auto;
 					display:block;  
  					width:300px; 
  					height:110px;  
  					background:url(images/dogvscat-logo.gif) no-repeat top left; 
  					text-indent:-9999px;
- 					margin-top:30px;
+ 					margin-top:40px;
  				    }
+
  
 article{clear:both;
 	    float:left;
