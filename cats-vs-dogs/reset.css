@@ -125,15 +125,19 @@ hr{border:3px solid black;
 			margin-bottom:25px;}
 .article2{float:right;
 			width:400px;
-			margin-right:315px;
+			margin-right:308px;
 			margin-bottom:25px;}
-footer{clear:both;
+footer{clear:right;
 		}
-.link1{float:left;
-		width:100px;}
+.link1{list-style:none;
+		float:left;
+		width:150px;
+	
+	text-decoration:none;}
 .link2{position:absolute;
-		bottom:0.3%;
-		left:30%;}
+		bottom:0.1%;
+		left:70%;
+		}
 
 
 
