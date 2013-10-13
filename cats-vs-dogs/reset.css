@@ -80,23 +80,31 @@ li {
 	font-weight:bold;
 	font-size:30px;
 	float:left;
-	padding:15px;
+	padding:10px;
 
 	}
 ul{position:absolute;
-	left:18%;
-	padding-bottom:5px;}
+	left:21.8%;
+	bottom:67.5%;
+	padding-bottom:5px;
+	}
  a{color:black;}
 
 h1{font-size:25px;
 	font-family:Baskerville;
-	font-weight:bold;}
+	font-weight:bold;
+	margin-top:5px;
+	margin-bottom:5px;}
 h2{font-size:25px;
    font-family:Baskerville;
-	font-weight:Bold;}
+	font-weight:Bold;
+	margin-top:5px;
+	margin-bottom:5px;}
 p{font-family:Baskerville;
   font-size:15px;}
-hr{border:3px solid black;}
+hr{border:3px solid black;
+	margin-bottom:50px;}
+
 
 #site-header{position:relative;
 			margin:auto;
@@ -105,18 +113,27 @@ hr{border:3px solid black;}
  			height:110px;  
  			background:url(images/dogvscat-logo.gif) no-repeat center; 
  			text-indent:-9999px;
- 			margin-top:20px;
+ 			padding-top:10px;
+ 			margin-top:30px;
  			margin-bottom:20px;
  			}
 
-article{clear:both;
-	    float:left;
-		width:350px;
-		height:350px;
-		padding-top:50px;}
 
+.article1{float:left;
+		   width:390px;
+			margin-left:280px;
+			margin-bottom:25px;}
+.article2{float:right;
+			width:400px;
+			margin-right:315px;
+			margin-bottom:25px;}
+footer{clear:both;
+		}
+.link1{float:left;
+		width:100px;}
+.link2{position:absolute;
+		bottom:0.3%;
+		left:30%;}
 
-footer{clear:both;}
-#second-line{margin-top:10px;}
 
 
