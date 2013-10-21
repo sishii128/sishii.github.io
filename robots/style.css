@@ -66,7 +66,7 @@ h2	{font-family:helvetica;
 	 font-size:15px;
 	 text-transform:uppercase;
 	 font-weight:bold;
-	 color:#4f3a11;
+	 color:#8B6508;
 	 padding-bottom:5px;
 	 padding-top:8px;}
 #top-nav{position:absolute;
@@ -74,7 +74,7 @@ h2	{font-family:helvetica;
 		 top:10px;
 		 }
 #top-nav a{text-decoration:none;
-			color:#4f3a11;
+			color:#8B6508;
 			font-size:13px;}
 #main-menu li{float:left;
 			display:block;
@@ -88,7 +88,7 @@ h2	{font-family:helvetica;
 		 font-family:helvetica;
 		 text-transform:uppercase;
 		 font-weight:bold;
-		 color:#4f3a11;
+		 color:#8B6508;
 		 }
 #page p{line-height:18px;
 		padding-bottom:13px;}
@@ -106,14 +106,14 @@ h2	{font-family:helvetica;
 		 margin-right:300px;
 		 padding-top:50px;}
 #sidebar h1{font-family:helvetica;
-			color:#4f3a11;
+			color:#8B6508;
 			text-transform:uppercase;
 			font-weight:bold;
 		    padding-bottom:8px;}
 #sidebar  a{text-decoration:none;
 			font-family:helvetica;
 			line-height:30px;
-			color:#4f3a11;}
+			color:#8B6508;}
 #sidebar img{width:70%;
 			 height:70%;}
 
