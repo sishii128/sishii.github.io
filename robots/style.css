@@ -50,40 +50,98 @@ table {
 	border-spacing: 0;
 }
 
+#site-header{background-color:#d4e0a3;
+			 width:1435px;}
+#main-menu {height:45px;
+			background-color:#8B6508;}
+
 h1 a{display:block;	
      text-indent:-9999px;    
      position:relative;
-  	 width:300px; height:80px;
+  	 width:300px; height:120px;
+  	 left:180px;
   	 background:url(images/logo.png) no-repeat left top;
 	 }
 h2	{font-family:helvetica;
 	 font-size:15px;
 	 text-transform:uppercase;
-	 font-weight:bold;}
+	 font-weight:bold;
+	 color:#4f3a11;
+	 padding-bottom:5px;
+	 padding-top:8px;}
 #top-nav{position:absolute;
-		 right:20%;
-		 top:10px;}
+		 right:27%;
+		 top:10px;
+		 }
+#top-nav a{text-decoration:none;
+			color:#4f3a11;
+			font-size:13px;}
 #main-menu li{float:left;
 			display:block;
-			padding:15px;}
+			padding:15px;
+			text-transform:uppercase;
+			font-family:helvetica;
+			font-weight:bold;
+			}
+#main-menu	ul{margin-left:170px;}
 #page h1{font-size:25px;
 		 font-family:helvetica;
 		 text-transform:uppercase;
 		 font-weight:bold;
-		}
+		 color:#4f3a11;
+		 }
+#page p{line-height:18px;
+		padding-bottom:13px;}
+#main-menu	a{text-decoration:none;
+		  color:white;}
 #page{
 	  clear:both;
 	  float:left;
 	  width:35%;
-	  margin:15px;}
+	  margin:15px;
+	  padding-left:170px;
+	  padding-top:30px;}
 #sidebar{float:right;
 		 width:20%;
-		 margin-right:300px;}
+		 margin-right:300px;
+		 padding-top:50px;}
+#sidebar h1{font-family:helvetica;
+			color:#4f3a11;
+			text-transform:uppercase;
+			font-weight:bold;
+		    padding-bottom:8px;}
+#sidebar  a{text-decoration:none;
+			font-family:helvetica;
+			line-height:30px;
+			color:#4f3a11;}
+#sidebar img{width:70%;
+			 height:70%;}
+
 #site-footer{clear:both;
-			 width:200px;}
-#footer-follow{float:right;
-				width:100px;}
-#footer-follow li {float:right;
+			 height:190px;
+			  background-color:#8B6508;}
+#footer-contact{float:left;
+				width:140px;
+				padding-top:30px;
+				padding-left:185px;}
+#footer-contact h1{font-family:helvetica;
+					text-transform:uppercase;
+					font-weight:bold;
+					padding-bottom:10px;
+					color:#FFEBCD;}
+#footer-contact p {color:white;
+					line-height:18px;}
+#footer-follow{position:absolute;
+				right:28%;
+				padding-top:30px;}
+#footer-follow h1{font-family:helvetica;
+					text-transform:uppercase;
+					font-weight:bold;
+					padding-bottom:10px;
+					color:#FFEBCD;}
+#footer-follow img{width:80%;
+					height:80%;}
+#footer-follow li {float:left;
 				  display:block;
-				  margin:10px;
-				  padding:10px;}
+				  margin-right:1px;
+				  }
