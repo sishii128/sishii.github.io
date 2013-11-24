@@ -72,7 +72,8 @@ p{font-family:whitney;}
 img{width:500px;}
 
 h1{font-family:helvetica;
-   font-weight: bold;}
+   font-weight: bold;
+	font-size:1.5em;}
 
 #website{position:relative;
 		 height:900px;
