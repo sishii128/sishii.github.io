@@ -73,19 +73,19 @@ h1 a{display:block;
 		width: 100%;
 		text-align: center;}
 
-#work_pictures{position:relative;
-			}
+#pictures{position:relative;
+			   left:130px;}
 
 #bass{position:absolute;
-	  top:300px;}
+	  top:180px;}
 #lemons{position:absolute;
-	   top:300px;
-	   left:400px;}
+	   top:180px;
+	   left:300px;}
 #miyavi{position:absolute;
-	   top:300px;
-	   left:800px;}
+	   top:180px;
+	   left:600px;}
 #opposites{position:absolute;
-	  top:600px;}
+	  top:500px;}
 li{font-family:helvetica;
 	letter-spacing:0.01em;
 	width:50px;
