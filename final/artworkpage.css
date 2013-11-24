@@ -61,6 +61,16 @@ h1 a{display:block;
   	 margin-right:5%;
 	 }
 
+li{font-family:helvetica;
+	letter-spacing:0.01em;
+	width:50px;
+	float:left;
+	}
+
+p{font-family:whitney;}
+
+img{width:500px;}
+
 #website{position:relative;
 		 height:900px;
 		 max-width:960px;
@@ -74,30 +84,11 @@ h1 a{display:block;
 		width: 100%;
 		text-align: center;}
 
-#pictures{position:relative;
-			   left:130px;}
-
-#bass{position:absolute;
-	  top:180px;}
-#lemons{position:absolute;
-	   top:180px;
-	   left:300px;}
-#miyavi{position:absolute;
-	   top:180px;
-	   left:600px;}
-#opposites{position:absolute;
-	  top:460px;}
-li{font-family:helvetica;
-	letter-spacing:0.01em;
-	width:50px;
-	float:left;
-	}
-
-p{font-family:whitney;}
-
-#contacts{padding-top:10px;}
-
-
 .circle{padding:5px;
 		margin-right:10%;
 		}
+#photos{position:relative;}
+.image1{position:absolute;
+		top:200px;}
+
+#information{position:absolute;}

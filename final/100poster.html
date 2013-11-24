@@ -1,53 +1,55 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 <style>
-.circle{width:120px;
-height:120px;
+.circle{width:80px;
+height:80px;
 border-radius:250px;
-font-size:15px;
+font-size:0.8em;
 color:#fff;
-line-height:120px;
+line-height:80px;
 text-align:center;
 background:#000;
 margin:5px;
 }
-a{color:white;}
-img{height:50%;
-    width:50%;}
+.circle a{color:white;
+  list-style:none;}
 h1{font-size:15px;}
 </style>
 
   
     <title>My Title</title>
-    <link rel="stylesheet" type='text/css' href="style.css" />
+    <link rel="stylesheet" type='text/css' href="artworkpage.css" />
   
-  <body>
-  	<header class='circle'>
-  		<h1><a href="webpage_text.html" style="text-decoration: none;">SHIN ISHII</a></h1>
-    </header>
 
-  	  <nav id='top-menu'>
-      <ul class='menu'>
-        <li class='circle'><a href="about.html" style="text-decoration: none;">ABOUT</a></li>
-        
-        <li class='circle'><a href="work.html" style="text-decoration: none;">WORK</a></li>
-        
-        <li class='circle'><a href="resume.html" style="text-decoration: none;">RESUME</a></li>
-      </ul>
+  <body id='website'>
+    <header id='site-header'>
+  <h1><a href='webpage_text.html'>Site Logo</a></h1>
+  <nav id='top-nav'>
+    <ul>
+    <li class='circle'>
+      <a href='about.html' style="text-decoration: none;">ABOUT</a> 
+      </li>
+      <li class='circle'> 
+        <a href='work.html' style="text-decoration: none;">WORK</a>
+      </li>
+      <li class='circle'>
+        <a href='resume.html' style="text-decoration: none;">RESUME</a>
+      </li>
+    </ul>
   </nav>
+</header>
 
-  <article>
+  <div id='photos'>
     <img src='images/Ishii_poster_ia2013.png' alt="poster"/>
     <img src='images/close_up.png' alt="close"/>
     <img src='images/close_up3.png' alt="close3"/>
     <img src='images/close_up2.png' alt="close2"/>
-    
-  </article>
+  </div>
 
-  <article>
+  <div id='information'>
     <h1>A Visualization of 100 Bass Guitars</h1>
     <p> A poster featuring data of the last 100 bass guitars I have played at an instrument store. Data organized in a format where viewer can see each specific attribute of the instrument. </p>
-  </article>
+  </div>
 
   <aside>
     <h1>Projects</h1>
