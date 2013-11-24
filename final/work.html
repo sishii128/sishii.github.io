@@ -1,43 +1,48 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 <style>
-.circle{width:120px;
-height:120px;
+.circle{width:80px;
+height:80px;
 border-radius:250px;
-font-size:15px;
+font-size:0.8em;
 color:#fff;
-line-height:120px;
+line-height:80px;
 text-align:center;
 background:#000;
 margin:5px;
 }
-a{color:white;}
+.circle a{color:white;
+  list-style:none;}
 h1{font-size:15px;}
 </style>
 
-  <head>
+  
     <title>My Title</title>
-    <link rel="stylesheet" type='text/css' href="reset.css" />
-  </head>
-  <body>
-  	<header class='circle'>
-  		<h1><a href="webpage_text.html" style="text-decoration: none;">SHIN ISHII</a></h1>
-    </header>
+    <link rel="stylesheet" type='text/css' href="workpage.css" />
+  
 
-  	  <nav id='top-menu'>
-      <ul class='menu'>
-        <li class='circle'><a href="about.html" style="text-decoration: none;">ABOUT</a></li>
-        
-        <li class='circle'><a href="work.html" style="text-decoration: none;">WORK</a></li>
-        
-        <li class='circle'><a href="resume.html" style="text-decoration: none;">RESUME</a></li>
-      </ul>
+  <body id='website'>
+    <header id='site-header'>
+  <h1><a href='webpage_text.html'>Site Logo</a></h1>
+  <nav id='top-nav'>
+    <ul>
+    <li class='circle'>
+      <a href='about.html' style="text-decoration: none;">ABOUT</a> 
+      </li>
+      <li class='circle'> 
+        <a href='work.html' style="text-decoration: none;">WORK</a>
+      </li>
+      <li class='circle'>
+        <a href='resume.html' style="text-decoration: none;">RESUME</a>
+      </li>
+    </ul>
   </nav>
+</header>
 
-    <article>
-      <a href="100poster.html"><img src="images/100poster.png" alt="100poster"/></a>
-      <a href="lemon.html"><img src="images/lemonrecipes.png" alt="lemon"/></a>
-      <a href="songposter.html"><img src="images/songposter.png" alt="songposter"/></a> 
-       <a href="opposites.html"><img src="images/opposites.png" alt="opposites"/></a>
-  </article>
+  <div id='pictures'>
+      <a href="100poster.html"><img id ='bass' src="images/100poster.png" alt="100poster"/></a>
+      <a href="lemon.html"><img id='lemons' src="images/lemonrecipes.png" alt="lemon"/></a>
+      <a href="songposter.html"><img id='miyavi' src="images/songposter.png" alt="songposter"/></a> 
+       <a href="opposites.html"><img id='opposites' src="images/opposites.png" alt="opposites"/></a>
+  </div>
 </body>
