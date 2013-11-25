@@ -87,6 +87,9 @@ h1 a{display:block;
 	   left:600px;}
 #opposites{position:absolute;
 	  top:460px;}
+#climate{position:absolute;
+	  top:460px;
+	  left:300px;}
 li{font-family:helvetica;
 	letter-spacing:0.01em;
 	width:50px;
