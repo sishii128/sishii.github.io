@@ -89,7 +89,10 @@ h1 a{display:block;
 	  top:460px;}
 #climate{position:absolute;
 	  top:460px;
-	  left:300px;}
+	  left:600px;}
+#book{position:absolute;
+	   top:460px;
+	   left:300px;}
 li{font-family:helvetica;
 	letter-spacing:0.01em;
 	width:50px;
