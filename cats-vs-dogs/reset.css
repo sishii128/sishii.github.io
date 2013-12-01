@@ -73,20 +73,22 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-li {
-	display: inline-block;
- 	list-style: none;
-	font-style:Baskerville;
-	font-weight:bold;
-	font-size:30px;
-	float:left;
-	padding:10px;
+body{width:960px;}
 
-	}
-ul{position:absolute;
-	left:21.8%;
-	bottom:72%;
-	}
+#navigation{text-align:center;
+			}
+.menu{display:block;
+	  list-style:none;
+	  font-weight:bold;
+	  font-size:30px;
+	  }
+ul{ float:left;
+		width:50%;}
+
+
+
+
+
  a{color:black;}
 
 h1{font-size:25px;
