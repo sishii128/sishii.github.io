@@ -98,7 +98,9 @@ body{width:100%;
  	padding-top:1%;
  	padding-bottom:1%;
  	font-weight:bold;
- 	font-size:1.7em;}
+ 	font-size:1.7em;
+ 	}
+ a:link{color:black;}
 
  article{float:left;
  		 width:45%;
