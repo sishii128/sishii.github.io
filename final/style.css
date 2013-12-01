@@ -64,13 +64,13 @@ h1 a{display:block;
 	 }
 
 #website{position:relative;
-		 height:900px;}
+		 }
 
 #top-nav{position:absolute;
 		top: 90px;
 		left: 544px;
 		height: 30px;
-		width:600px;
+		width:450px;
 		text-align: center;}
 #profile{float:left;}
 #aboutme{float:right;
@@ -113,14 +113,17 @@ h1 a{display:block;
 .aboutme{position:absolute;
 		width:500px;
 		left:380px;
-		top:20px;}
+		top:20px;
+		line-height:25px;}
 #photos{position:relative;
-		left:80px;
-		top:150px;}
+		left:10px;
+		top:150px;
+	    }
 #information{position:absolute;
 			 top:265px;
 			 left:620px;
-			 width:500px;}
+			 width:400px;
+			 line-height:25px;}
 
 
 
@@ -136,8 +139,7 @@ p{font-family:whitney;}
 
 
 .circle{padding:5px;
-		margin-right:10%;
+		margin-right:30px;
 		}
 
-.circle {}
 img{clear:both;}
