@@ -1,25 +1,13 @@
   <!DOCTYPE html>
 <html>
-<style>
-.circle{width:80px;
-height:80px;
-border-radius:250px;
-font-size:0.8em;
-color:#fff;
-line-height:80px;
-text-align:center;
-background:#000;
-margin:5px;
-}
-.circle a{color:white;
-  list-style:none;}
-h1{font-size:15px;}
-</style>
-
-  
+</head>  
     <title>My Title</title>
     <link rel="stylesheet" type='text/css' href="style.css" />
-  
+    <link rel="stylesheet" type='text/css' href='nivo-slider.css'/>
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+    <script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+</head>  
 
   <body id='website'>
     <header id='site-header'>
@@ -39,12 +27,20 @@ h1{font-size:15px;}
   </nav>
 </header>
 
-  <div id='photos'>
-    <img class='image1' src='images/Ishii_poster_ia2013.png' alt="poster"/>
-    <img class='image2' src='images/close_up.png' alt="close"/>
-    <img class='image3' src='images/close_up3.png' alt="close3"/>
-    <img class='image4' src='images/close_up2.png' alt="close2"/>
+<div class="slider-wrapper theme-light">
+  <div id='photos' class='nivoSlider'>
+    <img class='image1' src='images/Ishii_poster_ia2013.png' alt="poster" data-transition="slideInLeft" />
+    <img class='image2' src='images/close_up.png' alt="close" data-transition="slideInLeft" />
+    <img class='image3' src='images/close_up3.png' alt="close3" data-transition="slideInLeft" />
+    <img class='image4' src='images/close_up2.png' alt="close2" data-transition="slideInLeft" />
   </div>
+</div>
+
+  <script type="text/javascript">
+$(window).load(function() {
+    $('#photos').nivoSlider();
+});
+</script>
 
   <div id='information'>
     <h1>A Visualization of 100 Bass Guitars</h1>
