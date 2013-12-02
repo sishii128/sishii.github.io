@@ -3,7 +3,6 @@
  <head> 
     <title>My Title</title>
     <link rel="stylesheet" type='text/css' href="style.css" />
-    <script src="js/jQuery.BlackAndWhite.js"></script>
 </head>
 
   <body id='website'>
@@ -25,7 +24,7 @@
 </header>
 
 
-  <div id='pictures' class="bwWrapper">
+  <div id='pictures'>
       <a href="100poster.html"><img id ='bass' src="images/100poster.png" alt="100poster"/></a>
       <a href="lemon.html"><img id='lemons' src="images/lemonrecipes.png" alt="lemon"/></a>
       <a href="songposter.html"><img id='miyavi' src="images/songposter.png" alt="songposter"/></a> 
@@ -33,30 +32,8 @@
        <a href="10climate.html"><img id='climate' src="images/climate.png" alt="climate"/></a>
        <a href="book.html"><img id='book' src="images/book.png" alt="book"/></a>
   </div>
-</div>
 
-<script>
-$(window).load(function(){
-    $('.bwWrapper').BlackAndWhite({
-        hoverEffect : true, // default true
-        // set the path to BnWWorker.js for a superfast implementation
-        webworkerPath : false,
-        // for the images with a fluid width and height 
-        responsive:true,
-        // to invert the hover effect
-        invertHoverEffect: false,
-        // this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
-        intensity:1,
-        speed: { //this property could also be just speed: value for both fadeIn and fadeOut
-            fadeIn: 200, // 200ms for fadeIn animations
-            fadeOut: 800 // 800ms for fadeOut animations
-        },
-        onImageReady:function(img) {
-          // this callback gets executed anytime an image is converted
-        }
-    });
-});
-</script>
+
 
 
 </body>
