@@ -232,5 +232,8 @@ margin-right:56px;
 
 h1{font-size:15px;}
 
+.images{position:absolute;
+		top:500px;
 
-img{clear:both;}
+		}
+
