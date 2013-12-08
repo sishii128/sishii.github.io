@@ -58,14 +58,16 @@ h1 a{display:block;
      position:relative;
   	 width:400px; height:120px;
   	 top:70px;
-  	 right:50px;
+  	 right:30px;
   	 background:url(images/logo_title.png) no-repeat left top;
 	 }
 
-#contacts img{width:80px;
-				height:80px;
+#contacts img{width:70px;
+				height:70px;
 				float:left;
-				padding-right:5px;}
+				padding-top:6px;
+				padding-right:2px;
+				margin-right:9px;}
 
 #website{position:relative;
 		 margin:0 auto;}
