@@ -226,6 +226,7 @@ filter: none;
 #top-nav li{font-family:helvetica;
 	font-weight:bold;
 	float:left;
+	letter-spacing: 1px
 	}
 p{font-family:helvetica;
   font-size:10pt;}
