@@ -4,6 +4,7 @@
     <title>My Title</title>
     <link rel="stylesheet" type='text/css' href="style.css" />
     <link rel="stylesheet" type='text/css' href='nivo-slider.css'/>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
     <script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
 </head>
@@ -27,12 +28,14 @@
   </nav>
 </header>
 
-
+<div class="slider-wrapper theme-default">
   <div id='photos' class='nivoSlider'>
-    <img src='images/book1.png' alt="poster"/>
-    <img src='images/book2.png' alt="close"/>
-    <img src='images/book3.png' alt="close3"/>
-    <img src='images/book4.png' alt="close3"/>
+    <img src='images/book1.jpg' alt="poster" data-transition="slideInLeft" />
+    <img src='images/book2.jpg' alt="close" data-transition="slideInLeft" />
+    <img src='images/book3.jpg' alt="close3" data-transition="slideInLeft" />
+    <img src='images/book4.jpg' alt="close4" data-transition="slideInLeft" />
+    <img src='images/book5.jpg' alt="close5" data-transition="slideInLeft" />
+    <img src='images/book6.jpg' alt="close6" data-transition="slideInLeft" />
  </div>
 
   <script type="text/javascript">
@@ -46,4 +49,16 @@ $(window).load(function() {
     <h1>Visions of Design</h1>
     <br>
     <p>Book design featuring two different texts compiled together. Hand bound by perfect binding, with a hard cover.</p>
+  </div>
+
+     <div id='others'>
+    <h1>Other Projects</h1>
+    <br>
+    <ul class='project menu'> 
+        <li><a href="100poster.html" style="text-decoration: none; color:black;">A Visualization of 100 Bass Guitars</a></li>
+        <li><a href="lemon.html" style="text-decoration: none; color:black;">When Life gives You Lemons</a></li>
+        <li><a href="songposter.html" style="text-decoration: none; color:black;">DAY 1 Poster</a></li>
+        <li><a href="opposites.html" style="text-decoration: none; color:black;">Opposites</a></li>
+        <li><a href="10climate.html" style="text-decoration: none; color:black;">10 Problems About Climate Change</a></li>
+      </ul>
   </div>

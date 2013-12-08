@@ -187,24 +187,22 @@ filter: none;
 		top:20px;
 		line-height:25px;}
 #photos{position:relative;
-		left:10px;
 		top:150px;
 	    }
 #information{position:absolute;
 			 top:265px;
-			 left:620px;
-			 width:400px;
+			 left:550px;
+			 width:300px;
 			 line-height:25px;}
 
 
 
 
-li{font-family:helvetica;
+#top-nav li{font-family:helvetica;
 	letter-spacing:0.01em;
-	width:50px;
 	float:left;
 	}
-p{font-family:whitney;}
+p{font-family:helvetica;}
 
 #contacts{padding-top:10px;}
 
@@ -230,7 +228,29 @@ margin-right:56px;
 
 
 
-h1{font-size:15px;}
+h1{font-size:15px;
+	font-family:Helvetica;
+	color:gray;
+	font-weight:bold;}
+
+
+
+.slider-wrapper{width:500px;
+				}
+
+#others {position:absolute;
+	  		width:300px;
+	  		left:550px;
+	  		top:520px;}
+#others {line-height:29px;}
+#others li{font-family:helvetica;
+			color:black;}
+#others h1{	border-bottom:3px solid grey;
+	padding-bottom:7px;
+	letter-spacing:0.07em;}
+#information h1{	border-bottom:3px solid grey;
+	padding-bottom:7px;
+	letter-spacing:0.07em;}
 
 
 
