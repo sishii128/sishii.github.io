@@ -250,7 +250,8 @@ h1{font-size:15px;
 	  		top:520px;}
 #others {line-height:29px;}
 #others li{font-family:helvetica;
-			color:black;}
+			color:black;
+			font-size:10pt;}
 #others h1{	border-bottom:2px solid grey;
 	padding-bottom:7px;
 	letter-spacing:0.07em;}
