@@ -245,10 +245,10 @@ h1{font-size:15px;
 #others {line-height:29px;}
 #others li{font-family:helvetica;
 			color:black;}
-#others h1{	border-bottom:3px solid grey;
+#others h1{	border-bottom:2px solid grey;
 	padding-bottom:7px;
 	letter-spacing:0.07em;}
-#information h1{	border-bottom:3px solid grey;
+#information h1{	border-bottom:2px solid grey;
 	padding-bottom:7px;
 	letter-spacing:0.07em;}
 
