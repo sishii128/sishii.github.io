@@ -62,6 +62,11 @@ h1 a{display:block;
   	 background:url(images/logo_title.png) no-repeat left top;
 	 }
 
+#contacts img{width:80px;
+				height:80px;
+				float:left;
+				padding-right:5px;}
+
 #website{position:relative;
 		 margin:0 auto;}
 
@@ -202,7 +207,8 @@ filter: none;
 	letter-spacing:0.01em;
 	float:left;
 	}
-p{font-family:helvetica;}
+p{font-family:helvetica;
+  font-size:10pt;}
 
 #contacts{padding-top:10px;}
 
@@ -248,7 +254,7 @@ h1{font-size:15px;
 #others h1{	border-bottom:2px solid grey;
 	padding-bottom:7px;
 	letter-spacing:0.07em;}
-#information h1{	border-bottom:2px solid grey;
+#information h1{border-bottom:2px solid grey;
 	padding-bottom:7px;
 	letter-spacing:0.07em;}
 
