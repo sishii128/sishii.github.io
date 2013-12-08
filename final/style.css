@@ -224,7 +224,7 @@ filter: none;
 
 
 #top-nav li{font-family:helvetica;
-	letter-spacing:0.01em;
+	font-weight:bold;
 	float:left;
 	}
 p{font-family:helvetica;
