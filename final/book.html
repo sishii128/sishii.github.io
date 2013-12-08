@@ -38,9 +38,11 @@
     <img src='images/book6.jpg' alt="close6" data-transition="slideInLeft" />
  </div>
 
-  <script type="text/javascript">
+<script type="text/javascript">
 $(window).load(function() {
-    $('#photos').nivoSlider();
+    $('#photos').nivoSlider({
+      manualAdvance: true
+    });
 });
 </script>
   
@@ -48,11 +50,11 @@ $(window).load(function() {
   <div id='information'>
     <h1>Visions of Design</h1>
     <br>
-    <p>Book design featuring two different texts compiled together. Hand bound by perfect binding, with a hard cover.</p>
+    <p>Visions of Design is a book featuring two famous design essays by Gui Bonsiepe and John Berger. The pastel colors and the simplicity of the books speaks about the accesibility of the essays to readers of every age. </p>
   </div>
 
      <div id='others'>
-    <h1>Other Projects</h1>
+    <h1>Other Work</h1>
     <br>
     <ul class='project menu'> 
         <li><a href="100poster.html" style="text-decoration: none; color:black;">A Visualization of 100 Bass Guitars</a></li>
@@ -62,3 +64,5 @@ $(window).load(function() {
         <li><a href="10climate.html" style="text-decoration: none; color:black;">10 Problems About Climate Change</a></li>
       </ul>
   </div>
+</div>
+</body>

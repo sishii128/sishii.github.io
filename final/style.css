@@ -88,10 +88,12 @@ h1 a{display:block;
 	  height:500px;}
 
 #pictures{position:relative;
-			   }
+		  }
 
 #bass{position:absolute;
-	  top:180px;
+	  top:70px;
+	  width:300px;
+	  height:240px;
 		filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscalerayscale");
 filter: gray;
 -webkit-filter: grayscale(100%);
@@ -106,8 +108,10 @@ filter: none;
 
 
 #lemons{position:absolute;
-	   top:180px;
-	   left:300px;
+	   top:70px;
+	   left:330px;
+	   width:300px;
+	   height:240px;
 		filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscalerayscale");
 filter: gray;
 -webkit-filter: grayscale(100%);
@@ -121,8 +125,10 @@ filter: none;
 }
 
 #miyavi{position:absolute;
-	   top:180px;
-	   left:600px;
+	   top:70px;
+	   left:660px;
+	   width:300px;
+	   height:240px;
 		filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscalerayscale");
 filter: gray;
 -webkit-filter: grayscale(100%);
@@ -136,7 +142,9 @@ filter: none;
 }
 
 #opposites{position:absolute;
-	  top:460px;
+	  top:340px;
+	  width:300px;
+	  height:240px;
 		filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscalerayscale");
 filter: gray;
 -webkit-filter: grayscale(100%);
@@ -150,8 +158,10 @@ filter: none;
 }
 
 #climate{position:absolute;
-	  top:460px;
-	  left:600px;
+	  top:340px;
+	  left:660px;
+	  width:300px;
+	  height:240px;
 		filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscalerayscale");
 filter: gray;
 -webkit-filter: grayscale(100%);
@@ -165,8 +175,10 @@ filter: none;
 }
 
 #book{position:absolute;
-	   top:460px;
-	   left:300px;
+	   top:340px;
+	   left:330px;
+	   width:300px;
+	   height:240px;
 		filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscalerayscale");
 filter: gray;
 -webkit-filter: grayscale(100%);
@@ -180,23 +192,29 @@ filter: none;
 }
 
 #content{position:relative;
-				top:180px;
+				top:60px;
+				
 				}
 
 #me{position:relative;
 	 width:300px;
-	 }
+	 left:55px;
+	 top:5px;}
 .aboutme{position:absolute;
 		width:500px;
-		left:380px;
-		top:20px;
+		left:435px;
+		top:33px;
 		line-height:25px;}
 #photos{position:relative;
-		top:150px;
+		top:60px;
+	    left:40px;}
+#photo{position:relative;
+		top:60px;
+		left:30px;
 	    }
 #information{position:absolute;
-			 top:265px;
-			 left:550px;
+			 top:280px;
+			 left:600px;
 			 width:300px;
 			 line-height:25px;}
 
@@ -222,7 +240,7 @@ color:#fff;
 line-height:95px;
 text-align:center;
 background:#000;
-margin-right:56px;
+margin-left:71px;
 }
 
 .circle a{color:white;
@@ -243,10 +261,11 @@ h1{font-size:15px;
 
 .slider-wrapper{width:500px;
 				}
-
+.wrapper{width:900px;
+				}
 #others {position:absolute;
 	  		width:300px;
-	  		left:550px;
+	  		left:600px;
 	  		top:520px;}
 #others {line-height:29px;}
 #others li{font-family:helvetica;
@@ -258,6 +277,9 @@ h1{font-size:15px;
 #information h1{border-bottom:2px solid grey;
 	padding-bottom:7px;
 	letter-spacing:0.07em;}
+#site-header{border-bottom:2px solid black;
+			padding-bottom:100px;}
+
 
 
 

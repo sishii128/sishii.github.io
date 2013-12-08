@@ -1,6 +1,7 @@
-  <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html>
-</head>  
+<head>  
     <title>My Title</title>
     <link rel="stylesheet" type='text/css' href="style.css" />
     <link rel="stylesheet" type='text/css' href='nivo-slider.css'/>
@@ -29,16 +30,18 @@
 
 <div class="slider-wrapper theme-default">
   <div id='photos' class='nivoSlider'>
-    <img class='image1' src='images/Ishii_poster_ia2013.png' alt="poster" data-transition="slideInLeft" />
-    <img class='image2' src='images/close_up.png' alt="close" data-transition="slideInLeft" />
-    <img class='image3' src='images/close_up3.png' alt="close3" data-transition="slideInLeft" />
-    <img class='image4' src='images/close_up2.png' alt="close2" data-transition="slideInLeft" />
+    <img class='image1' src='images/100poster1.jpg' alt="poster" data-transition="slideInLeft" />
+    <img class='image2' src='images/close_up3.png' alt="close" data-transition="slideInLeft" />
+    <img class='image2' src='images/close_up.jpg' alt="close" data-transition="slideInLeft" />
+    <img class='image4' src='images/close_up2.jpg' alt="close2" data-transition="slideInLeft"/>
   </div>
 
 
-  <script type="text/javascript">
+<script type="text/javascript">
 $(window).load(function() {
-    $('#photos').nivoSlider();
+    $('#photos').nivoSlider({
+      manualAdvance: true
+    });
 });
 </script>
 
@@ -49,7 +52,7 @@ $(window).load(function() {
   </div>
 
       <div id='others'>
-    <h1>Other Projects</h1>
+    <h1>Other Work</h1>
     <br>
     <ul class='project menu'> 
         <li><a href="lemon.html" style="text-decoration: none; color:black;">When Life gives You Lemons</a></li>
@@ -58,7 +61,7 @@ $(window).load(function() {
         <li><a href="book.html" style="text-decoration: none; color:black;">Visions of Design</a></li>
           <li><a href="10climate.html" style="text-decoration: none; color:black;">10 Problems About Climate Change</a></li>
       </ul>
-
   </div>
-
+</div>
+</body>
 

@@ -26,7 +26,8 @@ Supports Thumbs: true
 
 .theme-default .nivo-controlNav {
 	text-align: center;
-	padding: 20px 0;
+	padding-top: 70px;
+	padding-left: 80px;
 }
 .theme-default .nivo-controlNav a {
 	display:inline-block;
